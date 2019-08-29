@@ -1,0 +1,23 @@
+{
+  "name": "bulma-site",
+  "version": "1.0.0",
+  "description": "a bulma site redesign",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jespernpedersen/greve-ic.git"
+  },
+  "author": "Jesper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jespernpedersen/greve-ic/issues"
+  },
+  "homepage": "https://github.com/jespernpedersen/greve-ic#readme",
+  "dependencies": {
+    "bulma": "^0.7.5",
+    "bulma-carousel": "^4.0.4"
+  }
+}

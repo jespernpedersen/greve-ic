@@ -7,10 +7,12 @@
     <title>Hello Bulma!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link href="node_modules/bulma-carousel/dist/css/bulma-carousel.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
 </head>
 
 <body class="container">
-    <header class="header section">
+    <header class="header section has-background-warning has-text-white">
         <div class="content has-text-centered">
             <div class="level">
                 <!-- Logo -->
@@ -19,26 +21,93 @@
                 </div>
                 <div class="level-right">
                     <!-- Top Menu -->
-                    Top Menu
+                    <ul>
+                        <li><a href="#">Læs op</a></li>
+                    </ul>
                     <!-- Search -->
-                    Search
+                    <input class="input" type="text" placeholder="Text input">
                 </div>
             </div>
         </div>
     </header>
     <!-- Navigation -->
-    <nav>
-        <ul class="navbar columns">
-            <li class="column"><a href="#">Idrætscenter</a></li>
-            <li class="column"><a href="#">Borgerhus</a></li>
-            <li class="column"><a href="#">Boldfælled</a></li>
-            <li class="column"><a href="#">Olsbækken</a></li>
-        </ul>
+    <nav class="section has-text-white">
+        <div class="container">
+            <ul class="navbar-menu columns">
+                <li class="nav-item column has-background-warning has-text-centered"><a href="#" class="navbar-link">Idrætscenter</a></li>
+                <li class="nav-item column has-background-warning has-text-centered"><a href="#" class="navbar-link">Borgerhus</a></li>
+                <li class="nav-item column has-background-warning has-text-centered"><a href="#" class="navbar-link">Boldfælled</a></li>
+                <li class="nav-item column has-background-warning has-text-centered"><a href="#" class="navbar-link">Olsbækken</a></li>
+            </ul>
+        </div>
     </nav>
     <main>
         <!-- Big Blog Slider (2 items) -->
-
+        <section class="section">
+            <div class="container">
+                <div class="tile">
+                    <div class="tile is-8 has-background-primary" style="background: url('http://www.greve-ic.dk/media/2116/sandwich.jpg?anchor=center&mode=crop&width=613&height=320&rnd=131896090690000000') no-repeat; background-size: cover; height: 400px; ">
+                    </div>
+                    <div class="tile has-background-warning">
+                        <div class="tile columns is-multiline">
+                            <div class="column is-full">
+                                <section class="section">
+                                    Item 1
+                                </section>
+                            </div>
+                            <div class="column is-full">
+                                <section class="section">
+                                    Item 2
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Additional Blog Posts (2 rows, 4 columns) -->
+        <section class="section">
+            <div class="container">
+                <div class="columns is-multiline is-mobile">
+                    <div class="column is-one-quarter">
+                        <img src="http://www.greve-ic.dk/media/2046/booking.jpg?anchor=center&mode=crop&width=225&height=115&rnd=131896090660000000" alt="Image" />
+                        <h3>Booking</h3>
+                        <a href="#" class="button">Klik her</a>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <img src="http://www.greve-ic.dk/media/2053/ifk2.png?anchor=center&mode=crop&width=225&height=115&rnd=131896090660000000" alt="Image" />
+                        <h3>Fritids og klubtilbud</h3>
+                        <a href="#" class="button">Klik her</a>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <img src="http://www.greve-ic.dk/media/2107/ferieplan.png?anchor=center&mode=crop&width=225&height=115&rnd=131896090680000000" alt="Image" />
+                        <h3>Ferieplan</h3>
+                        <a href="#" class="button">Klik her</a>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <img src="http://www.greve-ic.dk/media/2106/calender-8379060.jpg?anchor=center&mode=crop&width=225&height=115&rnd=131896090680000000" alt="Image" />
+                        <h3>Kulturkalender</h3>
+                        <a href="#" class="button">Klik her</a>
+                    </div>
+
+                    <div class="column is-one-quarter">
+                        <img src="http://www.greve-ic.dk/media/2091/mega_valhallen.jpg?anchor=center&mode=crop&width=225&height=115&rnd=131896090660000000" alt="Image" />
+                        <h3>Valhallen</h3>
+                        <a href="#" class="button">Klik her</a>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <img src="http://www.greve-ic.dk/media/2118/solar-cell-sprout-pumpkin-under-blue-sky-34384757.jpg?anchor=center&mode=crop&width=225&height=115&rnd=131896090690000000" alt="Image" />
+                        <h3>Aktuelle solcelle produktion</h3>
+                        <a href="#" class="button">Klik her</a>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <img src="http://www.greve-ic.dk/media/2060/sleeping.jpg?anchor=center&mode=crop&width=225&height=115&rnd=131896090660000000" alt="Image" />
+                        <h3>Ansøgning om midlertidig overnatning</h3>
+                        <a href="#" class="button">Klik her</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="content has-text-centered">
